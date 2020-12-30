@@ -7,6 +7,11 @@ new Vue({
          age: 25,
          X:0,
          Y:0,
+         ninjas:[
+             {name:'Akash', age: 23},
+             {name:'shobhit', age: 23},
+             {name:'Shourya', age: 23}
+         ]
     },
     methods: {
         add: function(inc){

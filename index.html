@@ -9,6 +9,10 @@
     </head>
     <body>
         <div id="vue-app">
+            <h2>Looping through lists</h2>
+            <ul>
+                <li v-for="(ninja, index) in ninjas">{{ index }}. {{ninja.name}}- {{ninja.age}}</li>
+            </ul>
             <h2>{{greet(' Afternoon')}}</h2>
            <p> Data binding: <a v-bind:href="website">  Google </a></p>
             <p>Job: {{job}}</p>
